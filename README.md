@@ -1,7 +1,6 @@
-## Prodigi Python Dev Technical Test
+## Endpoints to assert the modal colour in a image
 
-I have little to no experience with Flask but found it more practical for this purpose, 
-Django being less suitable for plain 'endpoints' and without any databases involved.
+Early experience with Flask, Django being less suitable for plain 'endpoints' and without any databases involved.
 
 The approach was to get the most frequent colour in the image provided and assert a square difderence of its components against the reference keys _teal_, _grey_, _black_ and _navy_.
 
