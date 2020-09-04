@@ -11,13 +11,13 @@ The first one to hold a difference smaller than this (arbitrary) threshold is el
 
 1. After cloning the repo start a python3 virtualenv on it and install the required dependencies:
 ```
-    $ cd prodigi
-    prodigi$ python3 -m venv .
-    (prodigi)prodigi$ pip install -r requirements.txt
+    $ cd img_modal_colour
+    img_modal_colour$ python3 -m venv .
+    (img_modal_colour)img_modal_colour$ pip install -r requirements.txt
 ```
 2. Start the Flask development server:
 ```
-   (prodigi)prodigi$ FLASK_ENV=development flask run 
+   (img_modal_colour)img_modal_colour$ FLASK_ENV=development flask run 
 ``` 
 It should start the server on http://127.0.0.1:5000
 
